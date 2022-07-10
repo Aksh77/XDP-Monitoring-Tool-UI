@@ -1,4 +1,50 @@
 <mat-toolbar color="primary" style="padding-left: 30px;">
   <span>XDP Monitoring Tool</span>
 </mat-toolbar>
+<div class="container-fluid" style="margin: 20px 10px;">
+  <h1>Patient Registry</h1>
+  <mat-form-field style="width: 90%;">
+    <mat-label>Search by Patient ID</mat-label>
+    <input (keyup)="searchPatient($event)" matInput/>
+  </mat-form-field>
+  <h1 *ngIf="tests.length" style="margin: 20px 0;">Evaluation History</h1>
+  <mat-accordion>
+    <mat-expansion-panel *ngFor="let test of tests" style="margin: 20px 0; width: 90%;">
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                <h2 style="padding-top: 20px;">{{test['Date']}}</h2>
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+        <mat-panel-description>
+            Evaluations conducted on {{test['Date']}}
+        </mat-panel-description>
+        <hr>
+        <div>
+          <table>
+            <tr>
+              <th>Scale</th>
+              <th>Test Type</th>
+              <th>Status</th>
+              <th>Score</th>
+              <th>Data</th>
+            </tr>
+            <tr *ngFor="let updrs_test of test['UPDRS Scale']">
+              <td>UPDRS Scale</td>
+              <td>{{updrs_test['Test type']}}</td>
+              <td>
+                <button mat-flat-button class="table-color-status" 
+                    [style.background-color]="getColour(updrs_test['Status'])"
+                    style="border-width: 2px; cursor: default">{{updrs_test['Status']}}
+                </button>
+              </td>
+              <td>{{updrs_test['Score']}}</td>
+              <td><button mat-raised-button color="accent">Video</button></td>
+            </tr>
+          </table>
+        </div>
+    </mat-expansion-panel>
+  </mat-accordion>
+</div>
+
+
   

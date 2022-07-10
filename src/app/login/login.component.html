@@ -1,0 +1,29 @@
+<mat-toolbar color="primary" style="padding-left: 30px;">
+    <span>XDP Monitoring Tool</span>
+</mat-toolbar>
+<div style="width: 40%; margin: 5% 30%;">
+    <h1>Login</h1>
+    <mat-form-field appearance="fill" style="width: 100%">
+        <mat-label>Enter your username</mat-label>
+        <input matInput>
+    </mat-form-field>
+    <br>
+    <mat-form-field appearance="fill" style="width: 100%">
+        <mat-label>Enter your password</mat-label>
+        <input matInput type="password">
+    </mat-form-field>
+    <label style="margin-right: 10px;"><h2>Select user type</h2></label>
+    <mat-radio-group aria-label="Select user type" style="float: right;">
+        <mat-radio-button disabled value="1" style="margin-right: 10px;">Patient/ Caregiver</mat-radio-button>
+        <mat-radio-button disabled value="2" style="margin-right: 10px;">Helper</mat-radio-button>
+        <mat-radio-button checked value="3">Physician</mat-radio-button>
+      </mat-radio-group>
+    <div style="margin-top: 10px;">
+        <button mat-raised-button color="accent" style="float: left;" disabled>
+            Regiser
+        </button>
+        <button mat-raised-button color="primary" style="float: right;" (click)="login();">
+            Login
+        </button>
+    </div>
+</div>
