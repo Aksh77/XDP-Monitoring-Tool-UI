@@ -17,7 +17,7 @@ export class UserDataComponent implements OnInit {
   }
 
   searchPatient(event: any){
-    if (event.keyCode == 13 ) {
+    if (event.keyCode == 13 || event.key == "Enter") {
       const val = (event.target as HTMLInputElement).value.trim().toLowerCase();
       // mock data
       this.tests = [
@@ -104,6 +104,12 @@ export class UserDataComponent implements OnInit {
       ]
       console.log("Search ", val);
     }
+  }
+
+  triggerSearch() {
+    const input = document.getElementById('patient-search');
+    input.focus();
+    input.dispatchEvent(new KeyboardEvent('keyup', {'key':'Enter'}));
   }
 
   getColour(status) {
