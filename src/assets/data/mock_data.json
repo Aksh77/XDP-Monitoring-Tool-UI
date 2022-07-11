@@ -1,0 +1,74 @@
+[{
+    "Date": "10 January 2022",
+    "Tests": [{
+            "Scale": "UPDRS Scale",
+            "Test type": "Finger Tapping",
+            "Description": "Finger Tapping",
+            "Status": "Ready",
+            "Score": 73,
+            "Video": {
+                "Raw": "../../assets/videos/placeholder_1.mov",
+                "Analysed": "../../assets/videos/placeholder_2.mov"
+            }
+        },
+        {
+            "Scale": "UPDRS Scale",
+            "Test type": "Posture",
+            "Description": "Posture while standing erect",
+            "Status": "Submitted for analysis",
+            "Score": "Pending",
+            "Video": {
+                "Raw": "../../assets/videos/placeholder_1.mov",
+                "Analysed": "../../assets/videos/placeholder_2.mov"
+            }
+        },
+        {
+            "Scale": "BFM Scale",
+            "Test type": "Neck dystonia",
+            "Description": "Dystonia of neck",
+            "Status": "Not collected",
+            "Score": 87,
+            "Video": {
+                "Raw": "../../assets/videos/placeholder_1.mov",
+                "Analysed": "../../assets/videos/placeholder_2.mov"
+            }
+        }
+    ]
+},
+{
+    "Date": "15 February 2022",
+    "Tests": [{
+            "Scale": "UPDRS Scale",
+            "Test type": "Finger Tapping",
+            "Description": "Finger Tapping",
+            "Status": "Ready",
+            "Score": 73,
+            "Video": {
+                "Raw": "../../assets/videos/placeholder_1.mov",
+                "Analysed": "../../assets/videos/placeholder_2.mov"
+            }
+        },
+        {
+            "Scale": "UPDRS Scale",
+            "Test type": "Posture",
+            "Description": "Posture while standing erect",
+            "Status": "Submitted for analysis",
+            "Score": "Pending",
+            "Video": {
+                "Raw": "../../assets/videos/placeholder_1.mov",
+                "Analysed": "../../assets/videos/placeholder_2.mov"
+            }
+        },
+        {
+            "Scale": "BFM Scale",
+            "Test type": "Neck dystonia",
+            "Description": "Dystonia of neck",
+            "Status": "Not collected",
+            "Score": 87,
+            "Video": {
+                "Raw": "../../assets/videos/placeholder_1.mov",
+                "Analysed": "../../assets/videos/placeholder_2.mov"
+            }
+        }
+    ]
+}]
