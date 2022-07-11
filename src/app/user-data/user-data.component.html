@@ -26,7 +26,7 @@
               <th>Scale</th>
               <th>Test Type</th>
               <th>Status</th>
-              <th>Score</th>
+              <th>Patient Score | Normal Score</th>
               <th>Data</th>
             </tr>
             <tr *ngFor="let test_row of test['Tests']">
@@ -38,7 +38,10 @@
                     style="border-width: 2px; cursor: default; width: 200px;">{{test_row['Status']}}
                 </button>
               </td>
-              <td>{{test_row['Score']}}</td>
+              <td>
+                <b>{{test_row['Score']['Patient']}} ( {{test_row['Score']['Scale']}} on {{test_row['Scale']}} Scale ) </b>
+                | {{test_row['Score']['Normal']}} ( 0 on {{test_row['Scale']}} Scale )
+              </td>
               <td><button mat-raised-button color="accent" (click)="openDataModal(test_row)">Video</button></td>
             </tr>
           </table>

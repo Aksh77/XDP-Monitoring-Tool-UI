@@ -12,7 +12,7 @@ import { MatTabGroup } from '@angular/material/tabs';
 export class UserDataComponent implements OnInit {
   @ViewChild('dataModalTemplate', { static: true }) public dataModalTemplate: TemplateRef<any>;
   @ViewChild('tabs', { static: true }) tabGroup: MatTabGroup;
-  tests = data;
+  tests = [];
   dialogRef;
 
   constructor(

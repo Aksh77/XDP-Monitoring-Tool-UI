@@ -5,7 +5,11 @@
             "Test type": "Finger Tapping",
             "Description": "Finger Tapping",
             "Status": "Ready",
-            "Score": 73,
+            "Score": {
+                "Patient": 73,
+                "Normal": 50,
+                "Scale": 2
+            },
             "Video": {
                 "Raw": "../../assets/videos/placeholder_1.mov",
                 "Analysed": "../../assets/videos/placeholder_2.mov"
@@ -16,7 +20,11 @@
             "Test type": "Posture",
             "Description": "Posture while standing erect",
             "Status": "Submitted for analysis",
-            "Score": "Pending",
+            "Score": {
+                "Patient": "Pending",
+                "Normal": 50,
+                "Scale": "-"
+            },
             "Video": {
                 "Raw": "../../assets/videos/placeholder_1.mov",
                 "Analysed": "../../assets/videos/placeholder_2.mov"
@@ -27,7 +35,11 @@
             "Test type": "Neck dystonia",
             "Description": "Dystonia of neck",
             "Status": "Not collected",
-            "Score": 87,
+            "Score": {
+                "Patient": "Pending",
+                "Normal": 50,
+                "Scale": "-"
+            },
             "Video": {
                 "Raw": "../../assets/videos/placeholder_1.mov",
                 "Analysed": "../../assets/videos/placeholder_2.mov"
@@ -42,7 +54,11 @@
             "Test type": "Finger Tapping",
             "Description": "Finger Tapping",
             "Status": "Ready",
-            "Score": 73,
+            "Score": {
+                "Patient": 87,
+                "Normal": 50,
+                "Scale": 2
+            },
             "Video": {
                 "Raw": "../../assets/videos/placeholder_1.mov",
                 "Analysed": "../../assets/videos/placeholder_2.mov"
@@ -53,7 +69,11 @@
             "Test type": "Posture",
             "Description": "Posture while standing erect",
             "Status": "Submitted for analysis",
-            "Score": "Pending",
+            "Score": {
+                "Patient": "Pending",
+                "Normal": 50,
+                "Scale": "-"
+            },
             "Video": {
                 "Raw": "../../assets/videos/placeholder_1.mov",
                 "Analysed": "../../assets/videos/placeholder_2.mov"
@@ -64,7 +84,11 @@
             "Test type": "Neck dystonia",
             "Description": "Dystonia of neck",
             "Status": "Not collected",
-            "Score": 87,
+            "Score": {
+                "Patient": "Pending",
+                "Normal": 50,
+                "Scale": "-"
+            },
             "Video": {
                 "Raw": "../../assets/videos/placeholder_1.mov",
                 "Analysed": "../../assets/videos/placeholder_2.mov"
