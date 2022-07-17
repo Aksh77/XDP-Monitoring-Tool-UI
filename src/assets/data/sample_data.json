@@ -1,12 +1,7 @@
 [
     {
         "Date": "10 January 2022",
-        "Medicine": {
-            "Generic Name": "",
-            "Formulation": "",
-            "Dosage": "",
-            "Frequency": ""
-        },
+        "Medicine": "test med 1",
         "Tests": [
             {
                 "Scale": "UPDRS Scale",
@@ -64,12 +59,7 @@
     },
     {
         "Date": "15 February 2022",
-        "Medicine": {
-            "Generic Name": "",
-            "Formulation": "",
-            "Dosage": "",
-            "Frequency": ""
-        },
+        "Medicine": "test med 2",
         "Tests": [
             {
                 "Scale": "UPDRS Scale",
