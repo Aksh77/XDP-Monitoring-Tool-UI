@@ -5,7 +5,7 @@
   <h1>Patient Registry</h1>
   <mat-form-field style="width: 30%;">
     <mat-label>Search by Patient ID</mat-label>
-    <input id="patient-search" (keyup)="searchPatient($event)" matInput/>
+    <input id="patient-search" (keyup)="searchPatient($event)" [value]="123" matInput/>
   </mat-form-field>
   <mat-icon (click)="triggerSearch()"class="search-icon">search</mat-icon>
   <h1 *ngIf="tests.length" style="margin: 20px 0;">Evaluation History</h1>
@@ -17,8 +17,14 @@
             </mat-panel-title>
         </mat-expansion-panel-header>
         <mat-panel-description>
-            Evaluations conducted on {{test['Date']}}
+          <p>Medication as on {{test['Date']}}</p>
         </mat-panel-description>
+        <ul>
+          <li>Generic Name: {{test['Medicine']['Generic Name']}}</li>
+          <li>Formulation: {{test['Medicine']['Formulation']}}</li>
+          <li>Dosage: {{test['Medicine']['Dosage']}}</li>
+          <li>Frequency: {{test['Medicine']['Frequency']}}</li>
+        </ul>
         <hr>
         <div>
           <table>
@@ -26,7 +32,10 @@
               <th>Scale</th>
               <th>Test Type</th>
               <th>Status</th>
-              <th>Patient Score | Normal Score</th>
+              <th>Parameters</th>
+              <th>Patient Score</th>
+              <th>Normal Score</th>
+              <th>Patient Score on Scale</th>
               <th>Data</th>
             </tr>
             <tr *ngFor="let test_row of test['Tests']">
@@ -39,10 +48,32 @@
                 </button>
               </td>
               <td>
-                <b>{{test_row['Score']['Patient']}} ( {{test_row['Score']['Scale']}} on {{test_row['Scale']}} Scale ) </b>
-                | {{test_row['Score']['Normal']}} ( 0 on {{test_row['Scale']}} Scale )
+                <p *ngFor="let subtest of test_row['Sub-tests']">
+                  {{subtest['Test parameter']}}
+                </p>
               </td>
-              <td><button mat-raised-button color="accent" (click)="openDataModal(test_row)">Video</button></td>
+              <td>
+                <p *ngFor="let subtest of test_row['Sub-tests']">
+                  <td>
+                    <b>{{subtest['Score']['Patient']}}</b> {{subtest['Unit']}}
+                  </td>
+                </p>
+              </td>
+              <td>
+                <p *ngFor="let subtest of test_row['Sub-tests']">
+                  <td>
+                    {{subtest['Score']['Normal']}} {{subtest['Unit']}}
+                  </td>
+                </p>
+              </td>
+              <td>
+                <p *ngFor="let subtest of test_row['Sub-tests']">
+                  <td>{{subtest['Score']['Scale']}} on {{test_row['Scale']}}</td>
+                </p>
+              </td>
+              <td>
+                <button mat-raised-button color="accent" [disabled]="!test_row['Video']" (click)="openDataModal(test_row)">Video</button>
+              </td>
             </tr>
           </table>
         </div>
@@ -55,6 +86,11 @@
       <img src="../../assets/images/placeholder.png"/>
     </div>
   </div>
+
+  <!-- Patient not found -->
+  <div *ngIf="notFound">
+    <p>Patient not Found, use patient ID 123 for demo</p>
+  </div>
 </div>
 
 <!-- Template: Data Modal Dialog Box -->
@@ -62,15 +98,12 @@
   <div mat-dialog-content>
       <h2><p>{{data['Scale'] + ': ' + data['Test type'] + ' Test'}}</p></h2>
       <mat-tab-group #tabs>
-        <mat-tab label="Raw Data"> 
+        <mat-tab label="Analysed Video">
           <video controls *ngIf="data['Video']" autoplay width="85%">
-            <source [src]="data['Video']['Raw']" type="video/mp4">
+            <source [src]="data['Video']" type="video/mp4">
           </video>
         </mat-tab>
-        <mat-tab label="Analysed Data">
-          <video controls *ngIf="data['Video']" autoplay width="85%">
-            <source [src]="data['Video']['Analysed']" type="video/mp4">
-          </video>
+        <mat-tab label="Raw Video" disabled> 
         </mat-tab>
       </mat-tab-group>
   </div>

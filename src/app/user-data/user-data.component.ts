@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild, TemplateRef } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import data from '../../assets/data/mock_data.json';
+import data from '../../assets/data/sample_data.json';
 import { MatDialog } from '@angular/material/dialog';
 import { MatTabGroup } from '@angular/material/tabs';
 
@@ -14,19 +14,34 @@ export class UserDataComponent implements OnInit {
   @ViewChild('tabs', { static: true }) tabGroup: MatTabGroup;
   tests = [];
   dialogRef;
+  notFound;
 
   constructor(
     private http: HttpClient,
     public dialog: MatDialog) {}
 
   ngOnInit(): void {
-    let url = 'https://xdp-monitoring-tool.herokuapp.com/patient';
   }
 
   searchPatient(event: any){
     if (event.keyCode == 13 || event.key == "Enter") {
       const val = (event.target as HTMLInputElement).value.trim().toLowerCase();
-      this.tests = data;
+      let url = `https://xdp-monitoring-tool.herokuapp.com/patient/${val}`;
+      this.http.get(url).subscribe(
+        data => {
+          if (data['data']) {
+            this.notFound = false;
+            this.tests = data['data'];
+          }
+          else {
+            console.log(data);
+          }
+        },
+        error => {
+          this.notFound = true;
+          this.tests = [];
+        }
+      )
       console.log("Search ", val);
     }
   }
