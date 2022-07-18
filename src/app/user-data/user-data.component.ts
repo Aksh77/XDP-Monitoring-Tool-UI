@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild, TemplateRef, QueryList, ViewChildren } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import data from '../../assets/data/sample_data.json';
+import patientData from '../../assets/data/sample_data.json';
 import { MatDialog } from '@angular/material/dialog';
 import { MatTabGroup } from '@angular/material/tabs';
 import Plotly from 'plotly.js-dist/plotly';
@@ -22,16 +22,18 @@ export class UserDataComponent implements OnInit {
   constructor(private http: HttpClient, public dialog: MatDialog) {
   }
 
-  ngAfterViewChecked(): void {
-    // TODO: feels like a better place to subscribe but 
-    // this.plotProgression is being called multiple times in here
-    // this.progressionChartDiv.changes.subscribe(result => {
-    //   this.plotProgression(result.first.nativeElement)
-    // });
+  ngAfterViewInit(): void {
+    // credits: https://stackoverflow.com/a/41234724/1585523
+    this.progressionChartDiv.changes.subscribe(result => {
+      this.plotProgression(result.first.nativeElement)
+    });
+    // this.plotProgression(document.querySelector("#progressionChart"))
   }
 
+  ngOnInit(): void {}
+
   ngOnDestroy(): void {
-    // TODO: not sure where to unsubscribe
+    // TODO: not sure where and how to unsubscribe
     // this.progressionChartDiv.changes.unsubscribe();
   }
 
@@ -44,11 +46,6 @@ export class UserDataComponent implements OnInit {
           if (data['data']) {
             this.notFound = false;
             this.tests = data['data'];
-            // credits: https://stackoverflow.com/a/41234724/1585523
-            this.progressionChartDiv.changes.subscribe(result => {
-              this.plotProgression(result.first.nativeElement)
-              }
-            );
           }
           else {
             console.log(data);
@@ -90,14 +87,42 @@ export class UserDataComponent implements OnInit {
     });
   }
 
-  plotProgression(chartContainer) {
-    console.log(data)
-    Plotly.newPlot(chartContainer, [{
-      x: [1, 2, 3, 4, 5],
-      y: [1, 2, 4, 8, 16]
-    }], {
-      margin: { t: 0 }
-    });
+  private plotProgression(chartContainer) {
+    // console.log(patientData)
+    const testName = "Finger tapping - R"
+    this.plotProgressionForTest(testName, chartContainer);
   }
 
+
+  private plotProgressionForTest(testName: string, chartContainer: any) {
+    // Note: This fn assumes the test score exists for all the dates
+    const x = patientData.data.map(d => new Date(d.Date));
+    const testData = patientData.data.map(d => d.Tests.filter(t => t["Test type"] === testName));
+    const ys = {};
+    for (const test of testData) {
+      for (const subTest of test[0]['Sub-tests']) {
+        const subTestName = subTest["Test parameter"];
+        if (subTestName in ys) {
+          ys[subTestName].push(subTest.Score.Patient);
+        } else {
+          ys[subTestName] = [subTest.Score.Patient];
+        }
+      }
+    }
+    const plotData = Object.keys(ys).map(subTestName => {
+      return {
+        x: x,
+        y: ys[subTestName],
+        mode: 'lines+markers',
+        name: subTestName
+      };
+    });
+    const layout = {
+      hovermode: 'closest',
+      title: testName,
+      yaxis: { title: "Patient Score" },
+      xaxis: { title: "Date" }
+    };
+    Plotly.newPlot(chartContainer, plotData, layout);
+  }
 }

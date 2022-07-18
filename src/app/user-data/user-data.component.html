@@ -6,6 +6,7 @@
   <mat-form-field style="width: 30%;">
     <mat-label>Search by Patient ID</mat-label>
     <input id="patient-search" (keyup)="searchPatient($event)" [value]="123" matInput/>
+    <!-- <div id="progressionChart" name="progressionChart" style="width:600px;height:250px;"></div> -->
   </mat-form-field>
   <mat-icon (click)="triggerSearch()"class="search-icon">search</mat-icon>
   <h1 *ngIf="tests.length" style="margin: 20px 0;">Evaluation History</h1>
@@ -84,7 +85,7 @@
   <!-- Patient not found -->
   <div *ngIf="notFound">
     <p>Patient not Found, use patient ID 123 for demo</p>
-  </div>
+  </div>  
 </div>
 
 <!-- Template: Data Modal Dialog Box -->
