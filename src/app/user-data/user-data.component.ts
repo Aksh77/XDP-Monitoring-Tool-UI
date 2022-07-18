@@ -88,7 +88,7 @@ export class UserDataComponent implements OnInit {
   }
 
   private plotProgression(chartDashboardDiv) {
-    // console.log(patientData)
+    console.log(patientData)
     // assumes the first entry has all the tests listed
     const allTestNames = patientData.data[0].Tests.map(testData => testData["Test type"])
     chartDashboardDiv.innerHTML = ""
@@ -111,6 +111,7 @@ export class UserDataComponent implements OnInit {
     // Note: This fn assumes the test score exists for all the dates
     const x = patientData.data.map(d => new Date(d.Date));
     const testData = patientData.data.map(d => d.Tests.filter(t => t["Test type"] === testName));
+    const hoverData = patientData.data.map(d => `${d.Medicine.split(",").join("<br />")}`);
     const ys = {};
     for (const test of testData) {
       for (const subTest of test[0]['Sub-tests']) {
@@ -126,6 +127,12 @@ export class UserDataComponent implements OnInit {
       return {
         x: x,
         y: ys[subTestName],
+        hovertemplate: 
+          "<b>Patient Score</b>: %{y}<br />" +
+          "<b>Date</b>: %{x} <br /><br />" +
+          "<b>Medication</b> <br />" +
+          "%{text}",
+        text: hoverData,
         mode: 'lines+markers',
         name: subTestName
       };
