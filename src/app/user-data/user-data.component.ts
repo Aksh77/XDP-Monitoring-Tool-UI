@@ -1,8 +1,9 @@
-import { Component, OnInit, ViewChild, TemplateRef } from '@angular/core';
+import { Component, OnInit, ViewChild, TemplateRef, QueryList, ViewChildren } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import data from '../../assets/data/sample_data.json';
 import { MatDialog } from '@angular/material/dialog';
 import { MatTabGroup } from '@angular/material/tabs';
+import Plotly from 'plotly.js-dist/plotly';
 
 @Component({
   selector: 'app-user-data',
@@ -12,15 +13,26 @@ import { MatTabGroup } from '@angular/material/tabs';
 export class UserDataComponent implements OnInit {
   @ViewChild('dataModalTemplate', { static: true }) public dataModalTemplate: TemplateRef<any>;
   @ViewChild('tabs', { static: true }) tabGroup: MatTabGroup;
+  @ViewChildren('chart') progressionChartDiv: QueryList<any>;
+
   tests = [];
   dialogRef;
   notFound;
 
-  constructor(
-    private http: HttpClient,
-    public dialog: MatDialog) {}
+  constructor(private http: HttpClient, public dialog: MatDialog) {
+  }
 
-  ngOnInit(): void {
+  ngAfterViewChecked(): void {
+    // TODO: feels like a better place to subscribe but 
+    // this.plotProgression is being called multiple times in here
+    // this.progressionChartDiv.changes.subscribe(result => {
+    //   this.plotProgression(result.first.nativeElement)
+    // });
+  }
+
+  ngOnDestroy(): void {
+    // TODO: not sure where to unsubscribe
+    // this.progressionChartDiv.changes.unsubscribe();
   }
 
   searchPatient(event: any){
@@ -32,6 +44,11 @@ export class UserDataComponent implements OnInit {
           if (data['data']) {
             this.notFound = false;
             this.tests = data['data'];
+            // credits: https://stackoverflow.com/a/41234724/1585523
+            this.progressionChartDiv.changes.subscribe(result => {
+              this.plotProgression(result.first.nativeElement)
+              }
+            );
           }
           else {
             console.log(data);
@@ -49,7 +66,7 @@ export class UserDataComponent implements OnInit {
   triggerSearch() {
     const input = document.getElementById('patient-search');
     input.focus();
-    input.dispatchEvent(new KeyboardEvent('keyup', {'key':'Enter'}));
+    input.dispatchEvent(new KeyboardEvent('keyup', { 'key': 'Enter' }));
   }
 
   getColour(status) {
@@ -70,6 +87,16 @@ export class UserDataComponent implements OnInit {
       data: test_data,
     }).afterOpened().subscribe(_ => {
       this.tabGroup.selectedIndex = 0;
+    });
+  }
+
+  plotProgression(chartContainer) {
+    console.log(data)
+    Plotly.newPlot(chartContainer, [{
+      x: [1, 2, 3, 4, 5],
+      y: [1, 2, 4, 8, 16]
+    }], {
+      margin: { t: 0 }
     });
   }
 
