@@ -1,118 +1,5319 @@
-[
+{
+  "data": [
     {
-        "Date": "10 January 2022",
-        "Medicine": "test med 1",
-        "Tests": [
+      "Date": "10 Jan 2022", 
+      "Medicine": "Tetrabenazine-PO-35mg-BD, Levodopa-PO-300mg-BD, Levodopa-PO-300mg-BD, Botulinum Toxin-IM-30U-STAT", 
+      "Tests": [
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
             {
-                "Scale": "UPDRS Scale",
-                "Status": "Ready",
-                "Test type": "Finger Tapping - R",
-                "Video": "../../assets/videos/placeholder_2.mov",
-                "Sub-tests": [
-                    {
-                        "Test parameter": "Interruption",
-                        "Score": {
-                            "Patient": 3,
-                            "Normal": 0,
-                            "Scale": 2
-                        },
-                        "Unit": "per 10 sec"
-                    },
-                    {
-                        "Test parameter": "Frequency",
-                        "Score": {
-                            "Patient": 20,
-                            "Normal": 30,
-                            "Scale": 2
-                        },
-                        "Unit": "per 10 sec"
-                    }
-                ]
-            },
+              "Score": {
+                "Normal": "0", 
+                "Patient": "3", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Interruption", 
+              "Unit": "per 10 sec"
+            }, 
             {
-                "Scale": "UPDRS Scale",
-                "Status": "Ready",
-                "Test type": "Finger Tapping - L",
-                "Video": "../../assets/videos/placeholder_2.mov",
-                "Sub-tests": [
-                    {
-                        "Test parameter": "Interruption",
-                        "Score": {
-                            "Patient": 3,
-                            "Normal": 0,
-                            "Scale": 2
-                        },
-                        "Unit": "per 10 sec"
-                    },
-                    {
-                        "Test parameter": "Frequency",
-                        "Score": {
-                            "Patient": 20,
-                            "Normal": 30,
-                            "Scale": 2
-                        },
-                        "Unit": "per 10 sec"
-                    }
-                ]
+              "Score": {
+                "Normal": "30", 
+                "Patient": "20", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Frequency", 
+              "Unit": "per 10 sec"
             }
-        ]
-    },
+          ], 
+          "Test type": "Finger tapping - R", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "Interruption", 
+              "Unit": "per 10 sec"
+            }, 
+            {
+              "Score": {
+                "Normal": "30", 
+                "Patient": "20", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "Frequency", 
+              "Unit": "per 10 sec"
+            }
+          ], 
+          "Test type": "Finger tapping - L", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "25", 
+                "Patient": "15", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Eye blink frequency ", 
+              "Unit": "per 60 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "0.5", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Lips parted distance ", 
+              "Unit": "cm"
+            }
+          ], 
+          "Test type": "facial expression", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "3"
+              }, 
+              "Test parameter": "interruption ", 
+              "Unit": "per 10 sec"
+            }, 
+            {
+              "Score": {
+                "Normal": "20", 
+                "Patient": "15", 
+                "Scale": "3"
+              }, 
+              "Test parameter": "frequency", 
+              "Unit": "per 10 sec"
+            }, 
+            {
+              "Score": {
+                "Normal": "100", 
+                "Patient": "88%", 
+                "Scale": "3"
+              }, 
+              "Test parameter": "amplitude", 
+              "Unit": "Percentage average"
+            }
+          ], 
+          "Test type": "hand movements - R", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "3"
+              }, 
+              "Test parameter": "interruption ", 
+              "Unit": "per 10 sec"
+            }, 
+            {
+              "Score": {
+                "Normal": "20", 
+                "Patient": "15", 
+                "Scale": "3"
+              }, 
+              "Test parameter": "frequency", 
+              "Unit": "per 10 sec"
+            }, 
+            {
+              "Score": {
+                "Normal": "100", 
+                "Patient": "88%", 
+                "Scale": "3"
+              }, 
+              "Test parameter": "amplitude", 
+              "Unit": "Percentage average"
+            }
+          ], 
+          "Test type": "hand movements - L", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "interruption ", 
+              "Unit": "per 10 seconds"
+            }
+          ], 
+          "Test type": "tow tapping -R", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "20", 
+                "Patient": "16", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "frequency", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "6", 
+                "Patient": "4", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "amplitude (toe to ground)", 
+              "Unit": "cm average"
+            }
+          ], 
+          "Test type": "tow tapping - R", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "interruption ", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "20", 
+                "Patient": "16", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "frequency", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "6", 
+                "Patient": "4", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "amplitude (toe to ground)", 
+              "Unit": "cm average"
+            }
+          ], 
+          "Test type": "tow tapping - L", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "1", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "interruption ", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "20", 
+                "Patient": "17", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "frequency", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "180", 
+                "Patient": "175", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude (movement angle covered)", 
+              "Unit": "degrees moved average"
+            }
+          ], 
+          "Test type": "Pronation supination - R", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "1", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "interruption ", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "20", 
+                "Patient": "17", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "frequency", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "180", 
+                "Patient": "165", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude (movement angle covered)", 
+              "Unit": "degrees moved average"
+            }
+          ], 
+          "Test type": "Pronation supination - L", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "interruption ", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "10", 
+                "Patient": "8", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "frequency", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "30", 
+                "Patient": "20", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude (foot to ground)", 
+              "Unit": "cm average"
+            }
+          ], 
+          "Test type": "Leg agility - R", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "interruption ", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "10", 
+                "Patient": "8", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "frequency", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "30", 
+                "Patient": "20", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude (foot to ground)", 
+              "Unit": "cm average"
+            }
+          ], 
+          "Test type": "Leg agility - L", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "6", 
+                "Patient": "4", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "Step time average (steps taken per 10 seconds)", 
+              "Unit": "10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0.5", 
+                "Patient": "0.4", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "swing time", 
+              "Unit": "per second "
+            }, 
+            {
+              "Score": {
+                "Normal": "0.6", 
+                "Patient": "0.56", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "step distance", 
+              "Unit": "meter"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "1", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "freezes", 
+              "Unit": "per 10 seconds"
+            }
+          ], 
+          "Test type": "Gait", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "90-105", 
+                "Patient": "110", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "craniovertebral angle", 
+              "Unit": "degrees average over 3 seconds "
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "10", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "scoliosis angle", 
+              "Unit": "degrees average over 3 seconds "
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "15", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "kyphosis angle", 
+              "Unit": "degrees average over 3 seconds "
+            }
+          ], 
+          "Test type": "posture - after standing", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "90-105", 
+                "Patient": "100", 
+                "Scale": "0"
+              }, 
+              "Test parameter": "craniovertebral angle", 
+              "Unit": "degrees average over 3 seconds "
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "13", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "scoliosis angle", 
+              "Unit": "degrees average over 3 seconds "
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "10", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "kyphosis angle", 
+              "Unit": "degrees average over 3 seconds "
+            }
+          ], 
+          "Test type": "posture - sitting ", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "5", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude average over 10 second", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "tremor - postural - R", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "15", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "amplitude average over 10 second", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "tremor - postural - L", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "20", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "amplitude average over 10 second", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "tremor - Kinetic - R", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "18", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "amplitude average over 10 second", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "tremor - Kinetic - L", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "8", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude average over 10 second", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "rest tremor - RA", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "7", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude average over 10 second", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "rest tremor - LA", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "4", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude average over 10 second", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "rest tremor - LIP", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "5", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude average over 10 second", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "rest tremor - JAW", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "30", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "correlation", 
+              "Unit": "%"
+            }
+          ], 
+          "Test type": "Tremor spiral quantification ", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "70.1-71", 
+                "Patient": "69", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "cepstral peak performance", 
+              "Unit": "ratio"
+            }, 
+            {
+              "Score": {
+                "Normal": "0.25", 
+                "Patient": "0.1", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "shimmer", 
+              "Unit": "ratio "
+            }
+          ], 
+          "Test type": "speech", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "BFM (BSS)", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "9", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "type of spasm (closure distance mm X duration of spasm) ", 
+              "Unit": "average"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "1", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "Spasm during writing", 
+              "Unit": "present (1) or absent (0)"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "3", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Duration of complete spasm at rest", 
+              "Unit": "sec"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "5", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "frequency of complete spasm at rest", 
+              "Unit": "number per 120 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "4", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "frequency of partial spasm at rest", 
+              "Unit": "number per 120 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "15", 
+                "Patient": "20", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "blinking frequency at rest", 
+              "Unit": "number per 120 seconds"
+            }
+          ], 
+          "Test type": "Eye", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "BFM (BSS)", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Opening apraxia", 
+              "Unit": "present (2) or absent (0)"
+            }
+          ], 
+          "Test type": "Eye ", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "BFM (OMDRS)", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "45", 
+                "Patient": "24", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "maximal mouth opening", 
+              "Unit": "mm"
+            }, 
+            {
+              "Score": {
+                "Normal": "6", 
+                "Patient": "3", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "maximal mouth deviation ", 
+              "Unit": "mm"
+            }, 
+            {
+              "Score": {
+                "Normal": "5", 
+                "Patient": "2", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "maximal mouth protrusion", 
+              "Unit": "mm"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "5", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "involuntary mouth opening", 
+              "Unit": "mm"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "involuntary mouth deviation", 
+              "Unit": "mm"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "involntary mouth protrusion ", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "Mouth", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "BFM (TWSTRS)", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "25", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "rotation at rest", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "17", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Laterocollis at rest(excluding shoulder elevation)", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "15", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Anterocollis at rest", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "18", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "retrocollis at rest", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "absent", 
+                "Patient": "present", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "Lateral shift at rest", 
+              "Unit": "present or absent"
+            }, 
+            {
+              "Score": {
+                "Normal": "absent", 
+                "Patient": "present", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "Sagittal shift at rest", 
+              "Unit": "present or absent"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "25", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "rotation sensoy trick ", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "10", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "Laterocollis sensory trick(excluding shoulder elevation)", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "10", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "Anterocollis sensory trick", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "7", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "retrocollis sensory trick", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "100", 
+                "Patient": "40", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "max time straight position maintained", 
+              "Unit": "sec"
+            }
+          ], 
+          "Test type": "Neck", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "BFM", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "7", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "antero posterior Angle at hip", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "4", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "antero-posterior Angle at shoulder", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "5", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "lateral deviation angle at hip", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "lateral deviation angle at shoulders", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "5", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "movement + antero posterior Angle at hip", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "4", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "movement + antero-posterior Angle at shoulder", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "5", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "movement + lateral deviation angle at hip", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "movement + lateral deviation angle at shoulders", 
+              "Unit": "degrees avg over 10 seconds"
+            }
+          ], 
+          "Test type": "Trunk", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "BFM", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "90", 
+                "Patient": "60", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "knee angle at rest sitting", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "10", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Ankle inversion-eversion angle at rest sitting", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "90", 
+                "Patient": "65", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Ankle Dorsiflexion angle at rest sitting", 
+              "Unit": "degrees avg over 10 seconds"
+            }
+          ], 
+          "Test type": "Leg - L", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "BFM", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "90", 
+                "Patient": "55", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "knee angle at rest sitting", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "10", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Ankle inversion-eversion angle at rest sitting", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "90", 
+                "Patient": "60", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Ankle Dorsiflexion angle at rest sitting", 
+              "Unit": "degrees avg over 10 seconds"
+            }
+          ], 
+          "Test type": "Leg - R", 
+          "Video": ""
+        }
+      ]
+    }, 
     {
-        "Date": "15 February 2022",
-        "Medicine": "test med 2",
-        "Tests": [
+      "Date": "19 Apr 2022", 
+      "Medicine": "Tetrabenazine-PO-35mg-BD, Levodopa-PO-300mg-BD, Levodopa-PO-300mg-BD, Botulinum Toxin-IM-30U-STAT", 
+      "Tests": [
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
             {
-                "Scale": "UPDRS Scale",
-                "Status": "Ready",
-                "Test type": "Finger Tapping - R",
-                "Video": "../../assets/videos/placeholder_2.mov",
-                "Sub-tests": [
-                    {
-                        "Test parameter": "Interruption",
-                        "Score": {
-                            "Patient": 2,
-                            "Normal": 0,
-                            "Scale": 2
-                        },
-                        "Unit": "per 10 sec"
-                    },
-                    {
-                        "Test parameter": "Frequency",
-                        "Score": {
-                            "Patient": 25,
-                            "Normal": 30,
-                            "Scale": 2
-                        },
-                        "Unit": "per 10 sec"
-                    }
-                ]
-            },
+              "Score": {
+                "Normal": "0", 
+                "Patient": "3", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Interruption", 
+              "Unit": "per 10 sec"
+            }, 
             {
-                "Scale": "UPDRS Scale",
-                "Status": "Ready",
-                "Test type": "Finger Tapping - L",
-                "Video": "../../assets/videos/placeholder_2.mov",
-                "Sub-tests": [
-                    {
-                        "Test parameter": "Interruption",
-                        "Score": {
-                            "Patient": 2,
-                            "Normal": 0,
-                            "Scale": 2
-                        },
-                        "Unit": "per 10 sec"
-                    },
-                    {
-                        "Test parameter": "Frequency",
-                        "Score": {
-                            "Patient": 15,
-                            "Normal": 30,
-                            "Scale": 2
-                        },
-                        "Unit": "per 10 sec"
-                    }
-                ]
+              "Score": {
+                "Normal": "30", 
+                "Patient": "20", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Frequency", 
+              "Unit": "per 10 sec"
             }
-        ]
+          ], 
+          "Test type": "Finger tapping - R", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "Interruption", 
+              "Unit": "per 10 sec"
+            }, 
+            {
+              "Score": {
+                "Normal": "30", 
+                "Patient": "20", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "Frequency", 
+              "Unit": "per 10 sec"
+            }
+          ], 
+          "Test type": "Finger tapping - L", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "25", 
+                "Patient": "15", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Eye blink frequency ", 
+              "Unit": "per 60 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "0.5", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Lips parted distance ", 
+              "Unit": "cm"
+            }
+          ], 
+          "Test type": "facial expression", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "3"
+              }, 
+              "Test parameter": "interruption ", 
+              "Unit": "per 10 sec"
+            }, 
+            {
+              "Score": {
+                "Normal": "20", 
+                "Patient": "15", 
+                "Scale": "3"
+              }, 
+              "Test parameter": "frequency", 
+              "Unit": "per 10 sec"
+            }, 
+            {
+              "Score": {
+                "Normal": "100", 
+                "Patient": "88%", 
+                "Scale": "3"
+              }, 
+              "Test parameter": "amplitude", 
+              "Unit": "Percentage average"
+            }
+          ], 
+          "Test type": "hand movements - R", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "3"
+              }, 
+              "Test parameter": "interruption ", 
+              "Unit": "per 10 sec"
+            }, 
+            {
+              "Score": {
+                "Normal": "20", 
+                "Patient": "15", 
+                "Scale": "3"
+              }, 
+              "Test parameter": "frequency", 
+              "Unit": "per 10 sec"
+            }, 
+            {
+              "Score": {
+                "Normal": "100", 
+                "Patient": "88%", 
+                "Scale": "3"
+              }, 
+              "Test parameter": "amplitude", 
+              "Unit": "Percentage average"
+            }
+          ], 
+          "Test type": "hand movements - L", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "interruption ", 
+              "Unit": "per 10 seconds"
+            }
+          ], 
+          "Test type": "tow tapping -R", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "20", 
+                "Patient": "16", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "frequency", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "6", 
+                "Patient": "4", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "amplitude (toe to ground)", 
+              "Unit": "cm average"
+            }
+          ], 
+          "Test type": "tow tapping - R", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "interruption ", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "20", 
+                "Patient": "16", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "frequency", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "6", 
+                "Patient": "4", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "amplitude (toe to ground)", 
+              "Unit": "cm average"
+            }
+          ], 
+          "Test type": "tow tapping - L", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "1", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "interruption ", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "20", 
+                "Patient": "17", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "frequency", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "180", 
+                "Patient": "175", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude (movement angle covered)", 
+              "Unit": "degrees moved average"
+            }
+          ], 
+          "Test type": "Pronation supination - R", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "1", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "interruption ", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "20", 
+                "Patient": "17", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "frequency", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "180", 
+                "Patient": "165", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude (movement angle covered)", 
+              "Unit": "degrees moved average"
+            }
+          ], 
+          "Test type": "Pronation supination - L", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "interruption ", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "10", 
+                "Patient": "8", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "frequency", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "30", 
+                "Patient": "20", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude (foot to ground)", 
+              "Unit": "cm average"
+            }
+          ], 
+          "Test type": "Leg agility - R", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "interruption ", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "10", 
+                "Patient": "8", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "frequency", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "30", 
+                "Patient": "20", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude (foot to ground)", 
+              "Unit": "cm average"
+            }
+          ], 
+          "Test type": "Leg agility - L", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "6", 
+                "Patient": "4", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "Step time average (steps taken per 10 seconds)", 
+              "Unit": "10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0.5", 
+                "Patient": "0.4", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "swing time", 
+              "Unit": "per second "
+            }, 
+            {
+              "Score": {
+                "Normal": "0.6", 
+                "Patient": "0.56", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "step distance", 
+              "Unit": "meter"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "1", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "freezes", 
+              "Unit": "per 10 seconds"
+            }
+          ], 
+          "Test type": "Gait", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "90-105", 
+                "Patient": "110", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "craniovertebral angle", 
+              "Unit": "degrees average over 3 seconds "
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "10", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "scoliosis angle", 
+              "Unit": "degrees average over 3 seconds "
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "15", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "kyphosis angle", 
+              "Unit": "degrees average over 3 seconds "
+            }
+          ], 
+          "Test type": "posture - after standing", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "90-105", 
+                "Patient": "100", 
+                "Scale": "0"
+              }, 
+              "Test parameter": "craniovertebral angle", 
+              "Unit": "degrees average over 3 seconds "
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "13", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "scoliosis angle", 
+              "Unit": "degrees average over 3 seconds "
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "10", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "kyphosis angle", 
+              "Unit": "degrees average over 3 seconds "
+            }
+          ], 
+          "Test type": "posture - sitting ", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "5", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude average over 10 second", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "tremor - postural - R", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "15", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "amplitude average over 10 second", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "tremor - postural - L", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "20", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "amplitude average over 10 second", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "tremor - Kinetic - R", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "18", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "amplitude average over 10 second", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "tremor - Kinetic - L", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "8", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude average over 10 second", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "rest tremor - RA", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "7", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude average over 10 second", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "rest tremor - LA", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "4", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude average over 10 second", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "rest tremor - LIP", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "5", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude average over 10 second", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "rest tremor - JAW", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "30", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "correlation", 
+              "Unit": "%"
+            }
+          ], 
+          "Test type": "Tremor spiral quantification ", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "70.1-71", 
+                "Patient": "69", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "cepstral peak performance", 
+              "Unit": "ratio"
+            }, 
+            {
+              "Score": {
+                "Normal": "0.25", 
+                "Patient": "0.1", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "shimmer", 
+              "Unit": "ratio "
+            }
+          ], 
+          "Test type": "speech", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "BFM (BSS)", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "9", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "type of spasm (closure distance mm X duration of spasm) ", 
+              "Unit": "average"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "1", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "Spasm during writing", 
+              "Unit": "present (1) or absent (0)"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "3", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Duration of complete spasm at rest", 
+              "Unit": "sec"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "5", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "frequency of complete spasm at rest", 
+              "Unit": "number per 120 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "4", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "frequency of partial spasm at rest", 
+              "Unit": "number per 120 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "15", 
+                "Patient": "20", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "blinking frequency at rest", 
+              "Unit": "number per 120 seconds"
+            }
+          ], 
+          "Test type": "Eye", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "BFM (BSS)", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Opening apraxia", 
+              "Unit": "present (2) or absent (0)"
+            }
+          ], 
+          "Test type": "Eye ", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "BFM (OMDRS)", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "45", 
+                "Patient": "24", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "maximal mouth opening", 
+              "Unit": "mm"
+            }, 
+            {
+              "Score": {
+                "Normal": "6", 
+                "Patient": "3", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "maximal mouth deviation ", 
+              "Unit": "mm"
+            }, 
+            {
+              "Score": {
+                "Normal": "5", 
+                "Patient": "2", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "maximal mouth protrusion", 
+              "Unit": "mm"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "5", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "involuntary mouth opening", 
+              "Unit": "mm"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "involuntary mouth deviation", 
+              "Unit": "mm"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "involntary mouth protrusion ", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "Mouth", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "BFM (TWSTRS)", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "25", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "rotation at rest", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "17", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Laterocollis at rest(excluding shoulder elevation)", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "15", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Anterocollis at rest", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "18", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "retrocollis at rest", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "absent", 
+                "Patient": "present", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "Lateral shift at rest", 
+              "Unit": "present or absent"
+            }, 
+            {
+              "Score": {
+                "Normal": "absent", 
+                "Patient": "present", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "Sagittal shift at rest", 
+              "Unit": "present or absent"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "25", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "rotation sensoy trick ", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "10", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "Laterocollis sensory trick(excluding shoulder elevation)", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "10", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "Anterocollis sensory trick", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "7", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "retrocollis sensory trick", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "100", 
+                "Patient": "40", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "max time straight position maintained", 
+              "Unit": "sec"
+            }
+          ], 
+          "Test type": "Neck", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "BFM", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "7", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "antero posterior Angle at hip", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "4", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "antero-posterior Angle at shoulder", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "5", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "lateral deviation angle at hip", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "lateral deviation angle at shoulders", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "5", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "movement + antero posterior Angle at hip", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "4", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "movement + antero-posterior Angle at shoulder", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "5", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "movement + lateral deviation angle at hip", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "movement + lateral deviation angle at shoulders", 
+              "Unit": "degrees avg over 10 seconds"
+            }
+          ], 
+          "Test type": "Trunk", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "BFM", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "90", 
+                "Patient": "60", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "knee angle at rest sitting", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "10", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Ankle inversion-eversion angle at rest sitting", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "90", 
+                "Patient": "65", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Ankle Dorsiflexion angle at rest sitting", 
+              "Unit": "degrees avg over 10 seconds"
+            }
+          ], 
+          "Test type": "Leg - L", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "BFM", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "90", 
+                "Patient": "55", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "knee angle at rest sitting", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "10", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Ankle inversion-eversion angle at rest sitting", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "90", 
+                "Patient": "60", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Ankle Dorsiflexion angle at rest sitting", 
+              "Unit": "degrees avg over 10 seconds"
+            }
+          ], 
+          "Test type": "Leg - R", 
+          "Video": ""
+        }
+      ]
+    }, 
+    {
+      "Date": "20 Jul 2022", 
+      "Medicine": "Tetrabenazine-PO-35mg-BD, Levodopa-PO-300mg-BD, Levodopa-PO-300mg-BD, Botulinum Toxin-IM-30U-STAT", 
+      "Tests": [
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "3", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Interruption", 
+              "Unit": "per 10 sec"
+            }, 
+            {
+              "Score": {
+                "Normal": "30", 
+                "Patient": "20", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Frequency", 
+              "Unit": "per 10 sec"
+            }
+          ], 
+          "Test type": "Finger tapping - R", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "Interruption", 
+              "Unit": "per 10 sec"
+            }, 
+            {
+              "Score": {
+                "Normal": "30", 
+                "Patient": "20", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "Frequency", 
+              "Unit": "per 10 sec"
+            }
+          ], 
+          "Test type": "Finger tapping - L", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "25", 
+                "Patient": "15", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Eye blink frequency ", 
+              "Unit": "per 60 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "0.5", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Lips parted distance ", 
+              "Unit": "cm"
+            }
+          ], 
+          "Test type": "facial expression", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "3"
+              }, 
+              "Test parameter": "interruption ", 
+              "Unit": "per 10 sec"
+            }, 
+            {
+              "Score": {
+                "Normal": "20", 
+                "Patient": "15", 
+                "Scale": "3"
+              }, 
+              "Test parameter": "frequency", 
+              "Unit": "per 10 sec"
+            }, 
+            {
+              "Score": {
+                "Normal": "100", 
+                "Patient": "88%", 
+                "Scale": "3"
+              }, 
+              "Test parameter": "amplitude", 
+              "Unit": "Percentage average"
+            }
+          ], 
+          "Test type": "hand movements - R", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "3"
+              }, 
+              "Test parameter": "interruption ", 
+              "Unit": "per 10 sec"
+            }, 
+            {
+              "Score": {
+                "Normal": "20", 
+                "Patient": "15", 
+                "Scale": "3"
+              }, 
+              "Test parameter": "frequency", 
+              "Unit": "per 10 sec"
+            }, 
+            {
+              "Score": {
+                "Normal": "100", 
+                "Patient": "88%", 
+                "Scale": "3"
+              }, 
+              "Test parameter": "amplitude", 
+              "Unit": "Percentage average"
+            }
+          ], 
+          "Test type": "hand movements - L", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "interruption ", 
+              "Unit": "per 10 seconds"
+            }
+          ], 
+          "Test type": "tow tapping -R", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "20", 
+                "Patient": "16", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "frequency", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "6", 
+                "Patient": "4", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "amplitude (toe to ground)", 
+              "Unit": "cm average"
+            }
+          ], 
+          "Test type": "tow tapping - R", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "interruption ", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "20", 
+                "Patient": "16", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "frequency", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "6", 
+                "Patient": "4", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "amplitude (toe to ground)", 
+              "Unit": "cm average"
+            }
+          ], 
+          "Test type": "tow tapping - L", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "1", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "interruption ", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "20", 
+                "Patient": "17", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "frequency", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "180", 
+                "Patient": "175", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude (movement angle covered)", 
+              "Unit": "degrees moved average"
+            }
+          ], 
+          "Test type": "Pronation supination - R", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "1", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "interruption ", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "20", 
+                "Patient": "17", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "frequency", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "180", 
+                "Patient": "165", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude (movement angle covered)", 
+              "Unit": "degrees moved average"
+            }
+          ], 
+          "Test type": "Pronation supination - L", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "interruption ", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "10", 
+                "Patient": "8", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "frequency", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "30", 
+                "Patient": "20", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude (foot to ground)", 
+              "Unit": "cm average"
+            }
+          ], 
+          "Test type": "Leg agility - R", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "interruption ", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "10", 
+                "Patient": "8", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "frequency", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "30", 
+                "Patient": "20", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude (foot to ground)", 
+              "Unit": "cm average"
+            }
+          ], 
+          "Test type": "Leg agility - L", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "6", 
+                "Patient": "4", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "Step time average (steps taken per 10 seconds)", 
+              "Unit": "10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0.5", 
+                "Patient": "0.4", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "swing time", 
+              "Unit": "per second "
+            }, 
+            {
+              "Score": {
+                "Normal": "0.6", 
+                "Patient": "0.56", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "step distance", 
+              "Unit": "meter"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "1", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "freezes", 
+              "Unit": "per 10 seconds"
+            }
+          ], 
+          "Test type": "Gait", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "90-105", 
+                "Patient": "110", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "craniovertebral angle", 
+              "Unit": "degrees average over 3 seconds "
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "10", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "scoliosis angle", 
+              "Unit": "degrees average over 3 seconds "
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "15", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "kyphosis angle", 
+              "Unit": "degrees average over 3 seconds "
+            }
+          ], 
+          "Test type": "posture - after standing", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "90-105", 
+                "Patient": "100", 
+                "Scale": "0"
+              }, 
+              "Test parameter": "craniovertebral angle", 
+              "Unit": "degrees average over 3 seconds "
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "13", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "scoliosis angle", 
+              "Unit": "degrees average over 3 seconds "
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "10", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "kyphosis angle", 
+              "Unit": "degrees average over 3 seconds "
+            }
+          ], 
+          "Test type": "posture - sitting ", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "5", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude average over 10 second", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "tremor - postural - R", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "15", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "amplitude average over 10 second", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "tremor - postural - L", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "20", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "amplitude average over 10 second", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "tremor - Kinetic - R", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "18", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "amplitude average over 10 second", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "tremor - Kinetic - L", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "8", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude average over 10 second", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "rest tremor - RA", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "7", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude average over 10 second", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "rest tremor - LA", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "4", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude average over 10 second", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "rest tremor - LIP", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "5", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude average over 10 second", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "rest tremor - JAW", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "30", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "correlation", 
+              "Unit": "%"
+            }
+          ], 
+          "Test type": "Tremor spiral quantification ", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "70.1-71", 
+                "Patient": "69", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "cepstral peak performance", 
+              "Unit": "ratio"
+            }, 
+            {
+              "Score": {
+                "Normal": "0.25", 
+                "Patient": "0.1", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "shimmer", 
+              "Unit": "ratio "
+            }
+          ], 
+          "Test type": "speech", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "BFM (BSS)", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "9", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "type of spasm (closure distance mm X duration of spasm) ", 
+              "Unit": "average"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "1", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "Spasm during writing", 
+              "Unit": "present (1) or absent (0)"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "3", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Duration of complete spasm at rest", 
+              "Unit": "sec"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "5", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "frequency of complete spasm at rest", 
+              "Unit": "number per 120 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "4", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "frequency of partial spasm at rest", 
+              "Unit": "number per 120 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "15", 
+                "Patient": "20", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "blinking frequency at rest", 
+              "Unit": "number per 120 seconds"
+            }
+          ], 
+          "Test type": "Eye", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "BFM (BSS)", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Opening apraxia", 
+              "Unit": "present (2) or absent (0)"
+            }
+          ], 
+          "Test type": "Eye ", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "BFM (OMDRS)", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "45", 
+                "Patient": "24", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "maximal mouth opening", 
+              "Unit": "mm"
+            }, 
+            {
+              "Score": {
+                "Normal": "6", 
+                "Patient": "3", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "maximal mouth deviation ", 
+              "Unit": "mm"
+            }, 
+            {
+              "Score": {
+                "Normal": "5", 
+                "Patient": "2", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "maximal mouth protrusion", 
+              "Unit": "mm"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "5", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "involuntary mouth opening", 
+              "Unit": "mm"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "involuntary mouth deviation", 
+              "Unit": "mm"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "involntary mouth protrusion ", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "Mouth", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "BFM (TWSTRS)", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "25", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "rotation at rest", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "17", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Laterocollis at rest(excluding shoulder elevation)", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "15", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Anterocollis at rest", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "18", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "retrocollis at rest", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "absent", 
+                "Patient": "present", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "Lateral shift at rest", 
+              "Unit": "present or absent"
+            }, 
+            {
+              "Score": {
+                "Normal": "absent", 
+                "Patient": "present", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "Sagittal shift at rest", 
+              "Unit": "present or absent"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "25", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "rotation sensoy trick ", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "10", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "Laterocollis sensory trick(excluding shoulder elevation)", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "10", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "Anterocollis sensory trick", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "7", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "retrocollis sensory trick", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "100", 
+                "Patient": "40", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "max time straight position maintained", 
+              "Unit": "sec"
+            }
+          ], 
+          "Test type": "Neck", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "BFM", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "7", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "antero posterior Angle at hip", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "4", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "antero-posterior Angle at shoulder", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "5", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "lateral deviation angle at hip", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "lateral deviation angle at shoulders", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "5", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "movement + antero posterior Angle at hip", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "4", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "movement + antero-posterior Angle at shoulder", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "5", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "movement + lateral deviation angle at hip", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "movement + lateral deviation angle at shoulders", 
+              "Unit": "degrees avg over 10 seconds"
+            }
+          ], 
+          "Test type": "Trunk", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "BFM", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "90", 
+                "Patient": "60", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "knee angle at rest sitting", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "10", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Ankle inversion-eversion angle at rest sitting", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "90", 
+                "Patient": "65", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Ankle Dorsiflexion angle at rest sitting", 
+              "Unit": "degrees avg over 10 seconds"
+            }
+          ], 
+          "Test type": "Leg - L", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "BFM", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "90", 
+                "Patient": "55", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "knee angle at rest sitting", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "10", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Ankle inversion-eversion angle at rest sitting", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "90", 
+                "Patient": "60", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Ankle Dorsiflexion angle at rest sitting", 
+              "Unit": "degrees avg over 10 seconds"
+            }
+          ], 
+          "Test type": "Leg - R", 
+          "Video": ""
+        }
+      ]
+    }, 
+    {
+      "Date": "25 Nov 2022", 
+      "Medicine": "Tetrabenazine-PO-35mg-BD, Levodopa-PO-300mg-BD, Levodopa-PO-300mg-BD, Botulinum Toxin-IM-30U-STAT", 
+      "Tests": [
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "3", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Interruption", 
+              "Unit": "per 10 sec"
+            }, 
+            {
+              "Score": {
+                "Normal": "30", 
+                "Patient": "20", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Frequency", 
+              "Unit": "per 10 sec"
+            }
+          ], 
+          "Test type": "Finger tapping - R", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "Interruption", 
+              "Unit": "per 10 sec"
+            }, 
+            {
+              "Score": {
+                "Normal": "30", 
+                "Patient": "20", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "Frequency", 
+              "Unit": "per 10 sec"
+            }
+          ], 
+          "Test type": "Finger tapping - L", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "25", 
+                "Patient": "15", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Eye blink frequency ", 
+              "Unit": "per 60 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "0.5", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Lips parted distance ", 
+              "Unit": "cm"
+            }
+          ], 
+          "Test type": "facial expression", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "3"
+              }, 
+              "Test parameter": "interruption ", 
+              "Unit": "per 10 sec"
+            }, 
+            {
+              "Score": {
+                "Normal": "20", 
+                "Patient": "15", 
+                "Scale": "3"
+              }, 
+              "Test parameter": "frequency", 
+              "Unit": "per 10 sec"
+            }, 
+            {
+              "Score": {
+                "Normal": "100", 
+                "Patient": "88%", 
+                "Scale": "3"
+              }, 
+              "Test parameter": "amplitude", 
+              "Unit": "Percentage average"
+            }
+          ], 
+          "Test type": "hand movements - R", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "3"
+              }, 
+              "Test parameter": "interruption ", 
+              "Unit": "per 10 sec"
+            }, 
+            {
+              "Score": {
+                "Normal": "20", 
+                "Patient": "15", 
+                "Scale": "3"
+              }, 
+              "Test parameter": "frequency", 
+              "Unit": "per 10 sec"
+            }, 
+            {
+              "Score": {
+                "Normal": "100", 
+                "Patient": "88%", 
+                "Scale": "3"
+              }, 
+              "Test parameter": "amplitude", 
+              "Unit": "Percentage average"
+            }
+          ], 
+          "Test type": "hand movements - L", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "interruption ", 
+              "Unit": "per 10 seconds"
+            }
+          ], 
+          "Test type": "tow tapping -R", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "20", 
+                "Patient": "16", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "frequency", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "6", 
+                "Patient": "4", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "amplitude (toe to ground)", 
+              "Unit": "cm average"
+            }
+          ], 
+          "Test type": "tow tapping - R", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "interruption ", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "20", 
+                "Patient": "16", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "frequency", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "6", 
+                "Patient": "4", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "amplitude (toe to ground)", 
+              "Unit": "cm average"
+            }
+          ], 
+          "Test type": "tow tapping - L", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "1", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "interruption ", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "20", 
+                "Patient": "17", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "frequency", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "180", 
+                "Patient": "175", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude (movement angle covered)", 
+              "Unit": "degrees moved average"
+            }
+          ], 
+          "Test type": "Pronation supination - R", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "1", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "interruption ", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "20", 
+                "Patient": "17", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "frequency", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "180", 
+                "Patient": "165", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude (movement angle covered)", 
+              "Unit": "degrees moved average"
+            }
+          ], 
+          "Test type": "Pronation supination - L", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "interruption ", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "10", 
+                "Patient": "8", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "frequency", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "30", 
+                "Patient": "20", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude (foot to ground)", 
+              "Unit": "cm average"
+            }
+          ], 
+          "Test type": "Leg agility - R", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "interruption ", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "10", 
+                "Patient": "8", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "frequency", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "30", 
+                "Patient": "20", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude (foot to ground)", 
+              "Unit": "cm average"
+            }
+          ], 
+          "Test type": "Leg agility - L", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "6", 
+                "Patient": "4", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "Step time average (steps taken per 10 seconds)", 
+              "Unit": "10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0.5", 
+                "Patient": "0.4", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "swing time", 
+              "Unit": "per second "
+            }, 
+            {
+              "Score": {
+                "Normal": "0.6", 
+                "Patient": "0.56", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "step distance", 
+              "Unit": "meter"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "1", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "freezes", 
+              "Unit": "per 10 seconds"
+            }
+          ], 
+          "Test type": "Gait", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "90-105", 
+                "Patient": "110", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "craniovertebral angle", 
+              "Unit": "degrees average over 3 seconds "
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "10", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "scoliosis angle", 
+              "Unit": "degrees average over 3 seconds "
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "15", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "kyphosis angle", 
+              "Unit": "degrees average over 3 seconds "
+            }
+          ], 
+          "Test type": "posture - after standing", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "90-105", 
+                "Patient": "100", 
+                "Scale": "0"
+              }, 
+              "Test parameter": "craniovertebral angle", 
+              "Unit": "degrees average over 3 seconds "
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "13", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "scoliosis angle", 
+              "Unit": "degrees average over 3 seconds "
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "10", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "kyphosis angle", 
+              "Unit": "degrees average over 3 seconds "
+            }
+          ], 
+          "Test type": "posture - sitting ", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "5", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude average over 10 second", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "tremor - postural - R", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "15", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "amplitude average over 10 second", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "tremor - postural - L", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "20", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "amplitude average over 10 second", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "tremor - Kinetic - R", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "18", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "amplitude average over 10 second", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "tremor - Kinetic - L", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "8", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude average over 10 second", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "rest tremor - RA", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "7", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude average over 10 second", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "rest tremor - LA", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "4", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude average over 10 second", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "rest tremor - LIP", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "5", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude average over 10 second", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "rest tremor - JAW", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "30", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "correlation", 
+              "Unit": "%"
+            }
+          ], 
+          "Test type": "Tremor spiral quantification ", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "70.1-71", 
+                "Patient": "69", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "cepstral peak performance", 
+              "Unit": "ratio"
+            }, 
+            {
+              "Score": {
+                "Normal": "0.25", 
+                "Patient": "0.1", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "shimmer", 
+              "Unit": "ratio "
+            }
+          ], 
+          "Test type": "speech", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "BFM (BSS)", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "9", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "type of spasm (closure distance mm X duration of spasm) ", 
+              "Unit": "average"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "1", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "Spasm during writing", 
+              "Unit": "present (1) or absent (0)"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "3", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Duration of complete spasm at rest", 
+              "Unit": "sec"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "5", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "frequency of complete spasm at rest", 
+              "Unit": "number per 120 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "4", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "frequency of partial spasm at rest", 
+              "Unit": "number per 120 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "15", 
+                "Patient": "20", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "blinking frequency at rest", 
+              "Unit": "number per 120 seconds"
+            }
+          ], 
+          "Test type": "Eye", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "BFM (BSS)", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Opening apraxia", 
+              "Unit": "present (2) or absent (0)"
+            }
+          ], 
+          "Test type": "Eye ", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "BFM (OMDRS)", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "45", 
+                "Patient": "24", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "maximal mouth opening", 
+              "Unit": "mm"
+            }, 
+            {
+              "Score": {
+                "Normal": "6", 
+                "Patient": "3", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "maximal mouth deviation ", 
+              "Unit": "mm"
+            }, 
+            {
+              "Score": {
+                "Normal": "5", 
+                "Patient": "2", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "maximal mouth protrusion", 
+              "Unit": "mm"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "5", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "involuntary mouth opening", 
+              "Unit": "mm"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "involuntary mouth deviation", 
+              "Unit": "mm"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "involntary mouth protrusion ", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "Mouth", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "BFM (TWSTRS)", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "25", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "rotation at rest", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "17", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Laterocollis at rest(excluding shoulder elevation)", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "15", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Anterocollis at rest", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "18", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "retrocollis at rest", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "absent", 
+                "Patient": "present", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "Lateral shift at rest", 
+              "Unit": "present or absent"
+            }, 
+            {
+              "Score": {
+                "Normal": "absent", 
+                "Patient": "present", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "Sagittal shift at rest", 
+              "Unit": "present or absent"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "25", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "rotation sensoy trick ", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "10", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "Laterocollis sensory trick(excluding shoulder elevation)", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "10", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "Anterocollis sensory trick", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "7", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "retrocollis sensory trick", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "100", 
+                "Patient": "40", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "max time straight position maintained", 
+              "Unit": "sec"
+            }
+          ], 
+          "Test type": "Neck", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "BFM", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "7", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "antero posterior Angle at hip", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "4", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "antero-posterior Angle at shoulder", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "5", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "lateral deviation angle at hip", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "lateral deviation angle at shoulders", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "5", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "movement + antero posterior Angle at hip", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "4", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "movement + antero-posterior Angle at shoulder", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "5", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "movement + lateral deviation angle at hip", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "movement + lateral deviation angle at shoulders", 
+              "Unit": "degrees avg over 10 seconds"
+            }
+          ], 
+          "Test type": "Trunk", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "BFM", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "90", 
+                "Patient": "60", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "knee angle at rest sitting", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "10", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Ankle inversion-eversion angle at rest sitting", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "90", 
+                "Patient": "65", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Ankle Dorsiflexion angle at rest sitting", 
+              "Unit": "degrees avg over 10 seconds"
+            }
+          ], 
+          "Test type": "Leg - L", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "BFM", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "90", 
+                "Patient": "55", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "knee angle at rest sitting", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "10", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Ankle inversion-eversion angle at rest sitting", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "90", 
+                "Patient": "60", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Ankle Dorsiflexion angle at rest sitting", 
+              "Unit": "degrees avg over 10 seconds"
+            }
+          ], 
+          "Test type": "Leg - R", 
+          "Video": ""
+        }
+      ]
+    }, 
+    {
+      "Date": "31 Jan 2023", 
+      "Medicine": "Tetrabenazine-PO-35mg-BD, Levodopa-PO-300mg-BD, Levodopa-PO-300mg-BD, Botulinum Toxin-IM-30U-STAT", 
+      "Tests": [
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "3", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Interruption", 
+              "Unit": "per 10 sec"
+            }, 
+            {
+              "Score": {
+                "Normal": "30", 
+                "Patient": "20", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Frequency", 
+              "Unit": "per 10 sec"
+            }
+          ], 
+          "Test type": "Finger tapping - R", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "Interruption", 
+              "Unit": "per 10 sec"
+            }, 
+            {
+              "Score": {
+                "Normal": "30", 
+                "Patient": "20", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "Frequency", 
+              "Unit": "per 10 sec"
+            }
+          ], 
+          "Test type": "Finger tapping - L", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "25", 
+                "Patient": "15", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Eye blink frequency ", 
+              "Unit": "per 60 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "0.5", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Lips parted distance ", 
+              "Unit": "cm"
+            }
+          ], 
+          "Test type": "facial expression", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "3"
+              }, 
+              "Test parameter": "interruption ", 
+              "Unit": "per 10 sec"
+            }, 
+            {
+              "Score": {
+                "Normal": "20", 
+                "Patient": "15", 
+                "Scale": "3"
+              }, 
+              "Test parameter": "frequency", 
+              "Unit": "per 10 sec"
+            }, 
+            {
+              "Score": {
+                "Normal": "100", 
+                "Patient": "88%", 
+                "Scale": "3"
+              }, 
+              "Test parameter": "amplitude", 
+              "Unit": "Percentage average"
+            }
+          ], 
+          "Test type": "hand movements - R", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "3"
+              }, 
+              "Test parameter": "interruption ", 
+              "Unit": "per 10 sec"
+            }, 
+            {
+              "Score": {
+                "Normal": "20", 
+                "Patient": "15", 
+                "Scale": "3"
+              }, 
+              "Test parameter": "frequency", 
+              "Unit": "per 10 sec"
+            }, 
+            {
+              "Score": {
+                "Normal": "100", 
+                "Patient": "88%", 
+                "Scale": "3"
+              }, 
+              "Test parameter": "amplitude", 
+              "Unit": "Percentage average"
+            }
+          ], 
+          "Test type": "hand movements - L", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "interruption ", 
+              "Unit": "per 10 seconds"
+            }
+          ], 
+          "Test type": "tow tapping -R", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "20", 
+                "Patient": "16", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "frequency", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "6", 
+                "Patient": "4", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "amplitude (toe to ground)", 
+              "Unit": "cm average"
+            }
+          ], 
+          "Test type": "tow tapping - R", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "interruption ", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "20", 
+                "Patient": "16", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "frequency", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "6", 
+                "Patient": "4", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "amplitude (toe to ground)", 
+              "Unit": "cm average"
+            }
+          ], 
+          "Test type": "tow tapping - L", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "1", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "interruption ", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "20", 
+                "Patient": "17", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "frequency", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "180", 
+                "Patient": "175", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude (movement angle covered)", 
+              "Unit": "degrees moved average"
+            }
+          ], 
+          "Test type": "Pronation supination - R", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "1", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "interruption ", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "20", 
+                "Patient": "17", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "frequency", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "180", 
+                "Patient": "165", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude (movement angle covered)", 
+              "Unit": "degrees moved average"
+            }
+          ], 
+          "Test type": "Pronation supination - L", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "interruption ", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "10", 
+                "Patient": "8", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "frequency", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "30", 
+                "Patient": "20", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude (foot to ground)", 
+              "Unit": "cm average"
+            }
+          ], 
+          "Test type": "Leg agility - R", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "interruption ", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "10", 
+                "Patient": "8", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "frequency", 
+              "Unit": "per 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "30", 
+                "Patient": "20", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude (foot to ground)", 
+              "Unit": "cm average"
+            }
+          ], 
+          "Test type": "Leg agility - L", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "6", 
+                "Patient": "4", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "Step time average (steps taken per 10 seconds)", 
+              "Unit": "10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0.5", 
+                "Patient": "0.4", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "swing time", 
+              "Unit": "per second "
+            }, 
+            {
+              "Score": {
+                "Normal": "0.6", 
+                "Patient": "0.56", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "step distance", 
+              "Unit": "meter"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "1", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "freezes", 
+              "Unit": "per 10 seconds"
+            }
+          ], 
+          "Test type": "Gait", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "90-105", 
+                "Patient": "110", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "craniovertebral angle", 
+              "Unit": "degrees average over 3 seconds "
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "10", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "scoliosis angle", 
+              "Unit": "degrees average over 3 seconds "
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "15", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "kyphosis angle", 
+              "Unit": "degrees average over 3 seconds "
+            }
+          ], 
+          "Test type": "posture - after standing", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "90-105", 
+                "Patient": "100", 
+                "Scale": "0"
+              }, 
+              "Test parameter": "craniovertebral angle", 
+              "Unit": "degrees average over 3 seconds "
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "13", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "scoliosis angle", 
+              "Unit": "degrees average over 3 seconds "
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "10", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "kyphosis angle", 
+              "Unit": "degrees average over 3 seconds "
+            }
+          ], 
+          "Test type": "posture - sitting ", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "5", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude average over 10 second", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "tremor - postural - R", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "15", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "amplitude average over 10 second", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "tremor - postural - L", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "20", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "amplitude average over 10 second", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "tremor - Kinetic - R", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "18", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "amplitude average over 10 second", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "tremor - Kinetic - L", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "8", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude average over 10 second", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "rest tremor - RA", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "7", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude average over 10 second", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "rest tremor - LA", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "4", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude average over 10 second", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "rest tremor - LIP", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "5", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "amplitude average over 10 second", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "rest tremor - JAW", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "30", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "correlation", 
+              "Unit": "%"
+            }
+          ], 
+          "Test type": "Tremor spiral quantification ", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "UPDRS", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "70.1-71", 
+                "Patient": "69", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "cepstral peak performance", 
+              "Unit": "ratio"
+            }, 
+            {
+              "Score": {
+                "Normal": "0.25", 
+                "Patient": "0.1", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "shimmer", 
+              "Unit": "ratio "
+            }
+          ], 
+          "Test type": "speech", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "BFM (BSS)", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "9", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "type of spasm (closure distance mm X duration of spasm) ", 
+              "Unit": "average"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "1", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "Spasm during writing", 
+              "Unit": "present (1) or absent (0)"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "3", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Duration of complete spasm at rest", 
+              "Unit": "sec"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "5", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "frequency of complete spasm at rest", 
+              "Unit": "number per 120 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "4", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "frequency of partial spasm at rest", 
+              "Unit": "number per 120 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "15", 
+                "Patient": "20", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "blinking frequency at rest", 
+              "Unit": "number per 120 seconds"
+            }
+          ], 
+          "Test type": "Eye", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "BFM (BSS)", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Opening apraxia", 
+              "Unit": "present (2) or absent (0)"
+            }
+          ], 
+          "Test type": "Eye ", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "BFM (OMDRS)", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "45", 
+                "Patient": "24", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "maximal mouth opening", 
+              "Unit": "mm"
+            }, 
+            {
+              "Score": {
+                "Normal": "6", 
+                "Patient": "3", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "maximal mouth deviation ", 
+              "Unit": "mm"
+            }, 
+            {
+              "Score": {
+                "Normal": "5", 
+                "Patient": "2", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "maximal mouth protrusion", 
+              "Unit": "mm"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "5", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "involuntary mouth opening", 
+              "Unit": "mm"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "involuntary mouth deviation", 
+              "Unit": "mm"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "involntary mouth protrusion ", 
+              "Unit": "mm"
+            }
+          ], 
+          "Test type": "Mouth", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "BFM (TWSTRS)", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "25", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "rotation at rest", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "17", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Laterocollis at rest(excluding shoulder elevation)", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "15", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Anterocollis at rest", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "18", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "retrocollis at rest", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "absent", 
+                "Patient": "present", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "Lateral shift at rest", 
+              "Unit": "present or absent"
+            }, 
+            {
+              "Score": {
+                "Normal": "absent", 
+                "Patient": "present", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "Sagittal shift at rest", 
+              "Unit": "present or absent"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "25", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "rotation sensoy trick ", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "10", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "Laterocollis sensory trick(excluding shoulder elevation)", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "10", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "Anterocollis sensory trick", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "7", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "retrocollis sensory trick", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "100", 
+                "Patient": "40", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "max time straight position maintained", 
+              "Unit": "sec"
+            }
+          ], 
+          "Test type": "Neck", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "BFM", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "7", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "antero posterior Angle at hip", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "4", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "antero-posterior Angle at shoulder", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "5", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "lateral deviation angle at hip", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "lateral deviation angle at shoulders", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "5", 
+                "Scale": "1"
+              }, 
+              "Test parameter": "movement + antero posterior Angle at hip", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "4", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "movement + antero-posterior Angle at shoulder", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "5", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "movement + lateral deviation angle at hip", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "2", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "movement + lateral deviation angle at shoulders", 
+              "Unit": "degrees avg over 10 seconds"
+            }
+          ], 
+          "Test type": "Trunk", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "BFM", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "90", 
+                "Patient": "60", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "knee angle at rest sitting", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "10", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Ankle inversion-eversion angle at rest sitting", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "90", 
+                "Patient": "65", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Ankle Dorsiflexion angle at rest sitting", 
+              "Unit": "degrees avg over 10 seconds"
+            }
+          ], 
+          "Test type": "Leg - L", 
+          "Video": ""
+        }, 
+        {
+          "Scale": "BFM", 
+          "Status": "Ready", 
+          "Sub-tests": [
+            {
+              "Score": {
+                "Normal": "90", 
+                "Patient": "55", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "knee angle at rest sitting", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "0", 
+                "Patient": "10", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Ankle inversion-eversion angle at rest sitting", 
+              "Unit": "degrees avg over 10 seconds"
+            }, 
+            {
+              "Score": {
+                "Normal": "90", 
+                "Patient": "60", 
+                "Scale": "2"
+              }, 
+              "Test parameter": "Ankle Dorsiflexion angle at rest sitting", 
+              "Unit": "degrees avg over 10 seconds"
+            }
+          ], 
+          "Test type": "Leg - R", 
+          "Video": ""
+        }
+      ]
     }
-]
+  ]
+}
