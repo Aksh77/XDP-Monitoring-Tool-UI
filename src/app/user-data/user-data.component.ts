@@ -87,10 +87,23 @@ export class UserDataComponent implements OnInit {
     });
   }
 
-  private plotProgression(chartContainer) {
+  private plotProgression(chartDashboardDiv) {
     // console.log(patientData)
-    const testName = "Finger tapping - R"
-    this.plotProgressionForTest(testName, chartContainer);
+    // assumes the first entry has all the tests listed
+    const allTestNames = patientData.data[0].Tests.map(testData => testData["Test type"])
+    chartDashboardDiv.innerHTML = ""
+    for (const testName of allTestNames) {
+      const testDiv = document.createElement("div")
+      testDiv.style.width = "650px";
+      testDiv.style.height = "450px";
+      testDiv.style.margin = "5px"
+      testDiv.style.float = "left"
+      chartDashboardDiv.appendChild(testDiv)
+      this.plotProgressionForTest(testName, testDiv);
+    }
+    const clearLayoutDiv = document.createElement("div")
+    clearLayoutDiv.style.clear = "both"
+    chartDashboardDiv.appendChild(clearLayoutDiv)
   }
 
 
