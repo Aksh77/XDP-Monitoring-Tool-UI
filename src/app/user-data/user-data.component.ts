@@ -17,7 +17,8 @@ export class UserDataComponent implements OnInit {
 
   tests = [];
   dialogRef;
-  notFound;
+  notFound = false;
+  searching = false;
 
   constructor(private http: HttpClient, public dialog: MatDialog) {
   }
@@ -28,20 +29,25 @@ export class UserDataComponent implements OnInit {
     if (event.keyCode == 13 || event.key == "Enter") {
       const val = (event.target as HTMLInputElement).value.trim().toLowerCase();
       let url = `https://xdp-monitoring-tool.herokuapp.com/patient/${val}`;
+      this.searching = true;
+      this.notFound = false;
       this.http.get(url).subscribe(
         data => {
           console.log("gotcha");
           if (data['data']) {
             this.notFound = false;
             this.tests = data['data'];
+            this.searching = false;
             this.progressionChartDiv.changes.subscribe(result => {
               this.plotProgression(result.first.nativeElement)
             });
           }
+          this.searching = false;
         },
         error => {
           this.notFound = true;
           this.tests = [];
+          this.searching = false;
         }
       )
     }

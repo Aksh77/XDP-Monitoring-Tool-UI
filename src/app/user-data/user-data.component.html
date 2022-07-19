@@ -82,6 +82,10 @@
     </div>
   </div>
 
+  <div *ngIf="searching">
+    <p>Fetching data...</p>
+  </div>
+
   <!-- Patient not found -->
   <div *ngIf="notFound">
     <p>Patient not Found, use patient ID 123 for demo</p>
