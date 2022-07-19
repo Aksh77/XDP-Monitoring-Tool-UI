@@ -99,7 +99,7 @@
       <mat-tab-group #tabs>
         <mat-tab label="Analysed Video">
           <video controls *ngIf="data['Video']" autoplay width="85%">
-            <source [src]="data['Video']" type="video/mp4">
+            <source [src]="'../../assets/videos/' + data['Video']" type="video/mp4">
           </video>
         </mat-tab>
         <mat-tab label="Raw Video" disabled> 
