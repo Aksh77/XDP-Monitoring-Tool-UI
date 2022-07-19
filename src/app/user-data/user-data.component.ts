@@ -22,20 +22,7 @@ export class UserDataComponent implements OnInit {
   constructor(private http: HttpClient, public dialog: MatDialog) {
   }
 
-  ngAfterViewInit(): void {
-    // credits: https://stackoverflow.com/a/41234724/1585523
-    this.progressionChartDiv.changes.subscribe(result => {
-      this.plotProgression(result.first.nativeElement)
-    });
-    // this.plotProgression(document.querySelector("#progressionChart"))
-  }
-
   ngOnInit(): void {}
-
-  ngOnDestroy(): void {
-    // TODO: not sure where and how to unsubscribe
-    // this.progressionChartDiv.changes.unsubscribe();
-  }
 
   searchPatient(event: any){
     if (event.keyCode == 13 || event.key == "Enter") {
@@ -43,12 +30,13 @@ export class UserDataComponent implements OnInit {
       let url = `https://xdp-monitoring-tool.herokuapp.com/patient/${val}`;
       this.http.get(url).subscribe(
         data => {
+          console.log("gotcha");
           if (data['data']) {
             this.notFound = false;
             this.tests = data['data'];
-          }
-          else {
-            console.log(data);
+            this.progressionChartDiv.changes.subscribe(result => {
+              this.plotProgression(result.first.nativeElement)
+            });
           }
         },
         error => {
@@ -56,7 +44,6 @@ export class UserDataComponent implements OnInit {
           this.tests = [];
         }
       )
-      console.log("Search ", val);
     }
   }
 
@@ -88,9 +75,8 @@ export class UserDataComponent implements OnInit {
   }
 
   private plotProgression(chartDashboardDiv) {
-    console.log(patientData)
     // assumes the first entry has all the tests listed
-    const allTestNames = patientData.data[0].Tests.map(testData => testData["Test type"])
+    const allTestNames = this.tests[0].Tests.map(testData => testData["Test type"])
     chartDashboardDiv.innerHTML = ""
     for (const testName of allTestNames) {
       const testDiv = document.createElement("div")
